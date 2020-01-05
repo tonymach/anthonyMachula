@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  font-family: "Helvetica";
+  color: #000;
+}
+
+nav {
+  border-top: 4px solid #000;
+}
+
+nav .navbar-brand {
+  color: #000 !important;
+}
+
+nav ul {
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #080808 !important;
+}
+
+.btn {
+  border: 2px solid #000;
+  border-radius: 0;
+  color: #080808;
+}
+
+.fa-circle {
+  margin: 5px;
+  color: #000;
+  transition: color 250ms;
+}
+
+.fa-circle:hover {
+  color: #080808;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.upper {
+  text-transform: uppercase;
+}

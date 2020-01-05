@@ -1,0 +1,43 @@
+$brand : #000
+$lightBrand : lighten($brand, 3)
+$white : #fff
+
+body
+  padding: 50px
+  font-family: "Helvetica"
+  color: $brand
+
+nav
+  border-top: 4px solid $brand
+
+  .navbar-brand
+    color: $brand !important
+
+  ul
+    text-transform: uppercase
+
+  a
+    color: $lightBrand !important
+
+.btn
+  border: 2px solid $brand
+  border-radius: 0
+  color: $lightBrand
+
+.fa-circle
+  margin: 5px
+  color: $brand
+  transition: color 250ms
+
+  &:hover
+    color: $lightBrand
+hr
+  display: block
+  height: 1px
+  border: 0
+  border-top: 3px solid $brand
+  margin: 1em 0
+  padding: 0
+
+.upper
+  text-transform: uppercase

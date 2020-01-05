@@ -1,0 +1,122 @@
+// Main.css
+@import vars
+@import general
+
+body
+  width: 100%
+  height: 100%
+  padding: 0
+  margin: 0
+  font-family: $blockyFont
+  font-weight: bold
+
+
+a
+  &:hover
+    color: lighten($black, 10)
+
+.italicised
+  color: $ox
+  text-size: 3em !important
+
+.fancy
+  font-family: $fancyFont
+
+.upper
+  text-transform: uppercase
+
+.bold
+  font-weight: bold
+
+.thin
+  font-weight: 300
+
+x
+  color: $ox
+
+.headline
+  font-weight: lighter
+  margin: 5rem
+  font-weight: bold
+  color: $freshLog
+  text-transform: uppercase
+  -webkit-animation-duration: 1s
+  animation-duration: 1s !important
+
+.centerContainer
+  padding: 3rem 1.5rem
+  text-align: center
+  height: 100vh
+  border:
+    bottom:
+
+.brand
+  color: $ox !important
+  font-family: $fancyFont
+
+li
+  padding: 5px
+  border-bottom: 1px solid $white
+  color: $black
+  text-transform: uppercase
+  text-decoration: none !important
+  transition: border-bottom linear 0.055s
+  &:hover
+    text-decoration: none !important
+    color: $hoverColor !important
+    border-bottom: 10px solid $hoverColor !important
+  a
+    text-decoration: none !important
+    &:hover
+      color: $hoverColor !important
+
+.navbar-toggler
+  color: $black !important
+
+
+.fa
+  color: $black !important
+
+.header
+  font-size: 14vw
+.title
+  color: $ox !important
+  font-family: $fancyFont
+
+nav
+  transition: background ease 0.25s
+
+.main
+  min-width: 100vw
+  min-height: 100vh
+  margin-bottom: 100px
+
+.portfolio
+  padding-top: 80px
+  margin-bottom: 15px
+  min-height: 40vh
+  color: $white
+  transition: background 250ms
+  transition: box-shadow 250ms
+.hobbyHunter
+  background-color: #f39c12
+
+  a
+    text-decoration: none
+    transition: text-decoration 550ms
+    &:hover
+      text-decoration: line-through
+  &:hover
+    background-color: lighten(#f39c12, 10)
+
+
+.rudben
+  background-color: #d35400
+
+  a
+    text-decoration: none
+    transition: text-decoration 550ms
+    &:hover
+      text-decoration: line-through
+  &:hover
+    background-color: lighten(#d35400, 10)
